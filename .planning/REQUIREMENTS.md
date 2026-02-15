@@ -120,53 +120,65 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| TOPIC-01 | - | Pending |
-| TOPIC-02 | - | Pending |
-| TOPIC-03 | - | Pending |
-| TOPIC-04 | - | Pending |
-| TOPIC-05 | - | Pending |
-| TOPIC-06 | - | Pending |
-| TOPIC-07 | - | Pending |
-| CONT-01 | - | Pending |
-| CONT-02 | - | Pending |
-| CONT-03 | - | Pending |
-| CONT-04 | - | Pending |
-| CONT-05 | - | Pending |
-| CONT-06 | - | Pending |
-| CONT-07 | - | Pending |
-| CONT-08 | - | Pending |
-| IMG-01 | - | Pending |
-| IMG-02 | - | Pending |
-| IMG-03 | - | Pending |
-| LINK-01 | - | Pending |
-| LINK-02 | - | Pending |
-| LINK-03 | - | Pending |
-| LINK-04 | - | Pending |
-| PUB-01 | - | Pending |
-| PUB-02 | - | Pending |
-| PUB-03 | - | Pending |
-| PUB-04 | - | Pending |
-| PUB-05 | - | Pending |
-| PUB-06 | - | Pending |
-| DATA-01 | - | Pending |
-| DATA-02 | - | Pending |
-| DATA-03 | - | Pending |
-| DATA-04 | - | Pending |
-| QA-01 | - | Pending |
-| QA-02 | - | Pending |
-| QA-03 | - | Pending |
-| QA-04 | - | Pending |
-| QA-05 | - | Pending |
-| WF-01 | - | Pending |
-| WF-02 | - | Pending |
-| WF-03 | - | Pending |
-| WF-04 | - | Pending |
+| TOPIC-01 | Phase 2 | Pending |
+| TOPIC-02 | Phase 2 | Pending |
+| TOPIC-03 | Phase 2 | Pending |
+| TOPIC-04 | Phase 2 | Pending |
+| TOPIC-05 | Phase 2 | Pending |
+| TOPIC-06 | Phase 2 | Pending |
+| TOPIC-07 | Phase 2 | Pending |
+| CONT-01 | Phase 3 | Pending |
+| CONT-02 | Phase 3 | Pending |
+| CONT-03 | Phase 3 | Pending |
+| CONT-04 | Phase 3 | Pending |
+| CONT-05 | Phase 3 | Pending |
+| CONT-06 | Phase 3 | Pending |
+| CONT-07 | Phase 3 | Pending |
+| CONT-08 | Phase 3 | Pending |
+| IMG-01 | Phase 4 | Pending |
+| IMG-02 | Phase 4 | Pending |
+| IMG-03 | Phase 4 | Pending |
+| LINK-01 | Phase 6 | Pending |
+| LINK-02 | Phase 6 | Pending |
+| LINK-03 | Phase 6 | Pending |
+| LINK-04 | Phase 6 | Pending |
+| PUB-01 | Phase 5 | Pending |
+| PUB-02 | Phase 5 | Pending |
+| PUB-03 | Phase 5 | Pending |
+| PUB-04 | Phase 5 | Pending |
+| PUB-05 | Phase 5 | Pending |
+| PUB-06 | Phase 1, Phase 8 | Pending |
+| DATA-01 | Phase 1 | Pending |
+| DATA-02 | Phase 5 | Pending |
+| DATA-03 | Phase 7 | Pending |
+| DATA-04 | Phase 1 | Pending |
+| QA-01 | Phase 3 | Pending |
+| QA-02 | Phase 3 | Pending |
+| QA-03 | Phase 4 | Pending |
+| QA-04 | Phase 6 | Pending |
+| QA-05 | Phase 5 | Pending |
+| WF-01 | Phase 1 | Pending |
+| WF-02 | Phase 2 | Pending |
+| WF-03 | Phase 2, Phase 7 | Pending |
+| WF-04 | Phase 2, Phase 7 | Pending |
 
 **Coverage:**
 - v1 requirements: 41 total
-- Mapped to phases: 0
-- Unmapped: 41 (roadmap olusturulacak)
+- Mapped to phases: 41 (100% coverage)
+- Unmapped: 0
+
+**Phase Distribution:**
+- Phase 1 (Foundation & Infrastructure): 4 requirements
+- Phase 2 (Topic Planning Workflow): 10 requirements
+- Phase 3 (Content Generation Core): 10 requirements
+- Phase 4 (Image Generation & Media Upload): 4 requirements
+- Phase 5 (WordPress Publishing Integration): 7 requirements
+- Phase 6 (Internal Linking System): 5 requirements
+- Phase 7 (Error Handling & Resilience): 3 requirements
+- Phase 8 (Multi-Site Support & Scaling): 1 requirement
+
+Note: Some requirements (PUB-06, WF-03, WF-04) span multiple phases as they represent foundational work (Phase 1/2) that scales in later phases (Phase 7/8).
 
 ---
 *Requirements defined: 2026-02-15*
-*Last updated: 2026-02-15 after initial definition*
+*Last updated: 2026-02-15 (traceability mapped to 8-phase roadmap)*
