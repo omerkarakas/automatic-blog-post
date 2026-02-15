@@ -1,0 +1,16 @@
+Bu proje bir n8n tabanlı otomatik blog post üretim sistemi. Pillar-cluster SEO stratejisi ile WordPress blogları    
+  için otomatik içerik üretiyor.                                                                                                                                                                                                              Proje GSD workflow ile başlatıldı ve tüm planlama dosyaları hazır. Şu dosyaları oku ve projenin durumunu anla:      
+
+  1. .planning/STATE.md — mevcut durum
+  2. .planning/PROJECT.md — proje bağlamı
+  3. .planning/config.json — workflow tercihleri
+  4. .planning/ROADMAP.md — 8 fazlık yol haritası
+  5. .planning/REQUIREMENTS.md — 41 v1 gereksinimi
+
+  Kısaca özet ver, sonra bir sonraki adımı öner.
+
+  ---
+  Bu prompt'u /clear yaptıktan sonra veya yeni bir oturumda yapıştırmanız yeterli. Tüm planlama dosyaları git'e commit
+   edilmiş durumda, context kaybolmaz.
+
+  Bir sonraki adım: /gsd:discuss-phase 1 veya /gsd:plan-phase 1
